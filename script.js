@@ -26,6 +26,7 @@ function fetchGitHubUser() {
           <p><strong>Public Repos:</strong> ${data.public_repos}</p>
            <p><strong>Profile</strong> 
                 <a href="https://github.com/${data.login}" target="_blank"></a>
+                </p>
         </div> `;
     })
     .catch(error => {
