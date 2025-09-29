@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #01161E;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 
 .container {
   text-align: center;
-  background: white;
+  background: #124559;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -25,8 +25,8 @@ input {
 button {
   padding: 10px 20px;
   margin-top: 10px;
-  background-color: #2c974b;
-  color: white;
+  background-color: #AEC3B0;
+  color: #EFF6E0;
   border: none;
   cursor: pointer;
 }
