@@ -24,9 +24,9 @@ function fetchGitHubUser() {
           <p><strong>Followers:</strong> ${data.followers}</p>
           <p><strong>Following:</strong> ${data.following}</p>
           <p><strong>Public Repos:</strong> ${data.public_repos}</p>
-           <p><strong>Profile</strong> 
-                <a href="https://github.com/${data.login}" target="_blank"></a>
-                </p>
+          <p><strong>Profile</strong> 
+              <a href="https://github.com/${data.login}" target="_blank"></a>
+            </p>
         </div> `;
     })
     .catch(error => {
